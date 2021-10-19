@@ -12,9 +12,9 @@ int main()
 	getline(cin,str);
     
     if(palindrome(str))
-    	cout<<str<<" is a palindrome."<<endl;
+    	cout<<str<<" is a palindrome!"<<endl;
     else
-    	cout<<str<<" is not a palindrome."<<endl;
+    	cout<<str<<" is not a palindrome!"<<endl;
 
     return 0;
 }
